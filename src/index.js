@@ -1,5 +1,5 @@
 import math from 'mathjs'
-import sort from 'lodash/sortBy'
+import { sortBy as sort } from 'lodash'
 import gaussian from 'gaussian'
 import {validateModel, validatePredict, validateGrid} from './inputsValidation'
 import {weightFunc, normalize, transpose, distMatrix, weightMatrix,

@@ -1,6 +1,6 @@
 import math from 'mathjs'
-import sort from 'lodash/sortBy'
-import zip from 'lodash/zip'
+import { sortBy as sort } from 'lodash'
+import { zip } from 'lodash'
 
 export function weightFunc (d, dmax, degree) {
   return d < dmax ? Math.pow(1 - Math.pow(d / dmax, degree), degree) : 0
