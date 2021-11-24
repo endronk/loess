@@ -1,5 +1,5 @@
 import math from 'mathjs'
-import sort from 'lodash/sortby'
+import sort from 'lodash/sortBy'
 import zip from 'lodash/zip'
 
 export function weightFunc (d, dmax, degree) {
